@@ -12,9 +12,9 @@ void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(LED, HIGH);
   Serial.println("LED IS ON");
-  delay(200);
+  delay(500);
 
   digitalWrite(LED, LOW);
   Serial.println("LED IS OFF");
-  delay(200);
+  delay(500);
 }
